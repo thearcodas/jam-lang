@@ -1,6 +1,7 @@
-<h1 align="left">
+
   <br>
-    <img src="logo.png" alt="logo" width="150">
+  <h1 >
+    <img src="logo.png" alt="logo" width="250" >
     Jam Lang
   <br>
   <br>
