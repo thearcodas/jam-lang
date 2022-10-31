@@ -22,7 +22,7 @@ Author- [Arco Das](https://www.instagram.com/thearcodas)
 His Social Handles : [Instagram](https://www.instagram.com/thearcodas) | [Facebook](https://www.facebook.com/thearcodas) | [Blog](https://www.thearcodas.wordpress.com)
 
 ---
-
+The background color should be `#fa6559` for light mode and `#000000` for dark mode.
 
 
 
