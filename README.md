@@ -1,8 +1,7 @@
-<h1 align="center">
+<h1 align="left">
   <br>
-    <img src="logo.png" alt="logo" width="250">
-  <br><br>
-  Jam Lang
+    <img src="logo.png" alt="logo" width="150">
+    Jam Lang
   <br>
   <br>
 </h1>
@@ -22,7 +21,7 @@ Author- [Arco Das](https://www.instagram.com/thearcodas)
 His Social Handles : [Instagram](https://www.instagram.com/thearcodas) | [Facebook](https://www.facebook.com/thearcodas) | [Blog](https://www.thearcodas.wordpress.com)
 
 ---
-The background color should be `#fa6559` for light mode and `#000000` for dark mode.
+
 
 
 
