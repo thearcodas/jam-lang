@@ -1,7 +1,6 @@
-
-  <br>
+<br>
   <h1 >
-    <img src="logo.png" alt="logo" width="250" >
+    <img src="resources/logo.png" alt="logo" width="250" >
     Jam Lang
   <br>
   <br>
@@ -17,12 +16,11 @@ Author- [Arco Das](https://www.instagram.com/thearcodas)
 
 ## About The Author
 
-[**Arco das**](https://www.instagram.com/thearcodas) is a student pursuing Bachelor of Science (Hons.) in the Computer Science Department of Scottish Church College, Kolkata. He is an Actor, Theatre Practitioner and a computer and programming geek.
+[**Arco das**](https://github.com/thearcodas/) is a student pursuing Bachelor of Science (Hons.) in the Computer Science Department of Scottish Church College, Kolkata. He is an Actor, Theatre Practitioner and a computer and programming geek.
 
 His Social Handles : [Instagram](https://www.instagram.com/thearcodas) | [Facebook](https://www.facebook.com/thearcodas) | [Blog](https://www.thearcodas.wordpress.com)
 
 ---
+## Thanks
 
-
-
-
+Special thanks to [Soham](https://github.com/SohamMalakar/) for helping me out whenever I needed.

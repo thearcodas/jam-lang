@@ -1,0 +1,69 @@
+statements : NEWLINE* statement (NEWLINE+ statement)* NEWLINE*
+
+statement		: KEYWORD:RETURN expr?
+						: KEYWORD:CONTINUE
+						: KEYWORD:BREAK
+						: expr
+
+expr        : IDENTIFIER EQ expr
+            : or-expr
+
+or-expr     : and-expr (KEYWORD:or and-expr)*
+
+and-expr    : comp-expr (KEYWORD:and comp-expr)*
+
+comp-expr   : KEYWORD:not comp-expr
+            : arith-expr ((EE|NE|LT|GT|LTE|GTE) arith-expr)*
+
+arith-expr  : term ((PLUS|MINUS) term)*
+
+term        : factor ((MUL|DIV|INTDIV|MOD) factor)*
+
+factor      : (PLUS|MINUS) factor
+            : power
+
+power       : call (POW factor)*
+
+call        : atom (LPAREN (expr (COMMA expr)*)? RPAREN)?
+
+atom        : INT|FLOAT|STRING|IDENTIFIER|KEYWORD:none
+            : LPAREN expr RPAREN
+            : list-expr
+            : if-expr
+            : for-expr
+            : while-expr
+            : func-def
+             
+list-expr   : LSQUARE (expr (COMMA expr)*)? RSQUARE
+
+if-expr : KEYWORD:if expr 
+          (ARROW statement  elif-expr|else-expr?)
+        | (LCURLY statements RCURLY elif-expr|else-expr?)
+          NEWLINE
+
+elif-expr : KEYWORD:elif expr 
+            (ARROW statement elif-expr|else-expr?)
+          | (LCURLY statements RCURLY elif-expr|else-expr?)
+            NEWLINE
+
+else-expr : KEYWORD:else
+            (ARROW statement)
+          | (LCURLY statements RCURLY)
+            NEWLINE
+
+for-expr    : KEYWORD:for IDENTIFIER EQ expr KEYWORD:to expr
+              (KEYWORD:do expr) 
+              (ARROW statement)
+            | (LCURLY statements RCURLY)
+              NEWLINE
+
+while-expr  : KEYWORD:while expr 
+              (ARROW statement)
+            | (LCURLY statements RCURLY)
+              NEWLINE
+
+func-def    : KEYWORD:function IDENTIFIER?
+              LPAREN (IDENTIFIER (COMMA IDENTIFIER)*)? RPAREN
+              (ARROW statement)
+            | (LCURLY statements RCURLY)
+              NEWLINE

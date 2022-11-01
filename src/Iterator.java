@@ -1,0 +1,4 @@
+interface Iterator
+{
+    String next();
+}
