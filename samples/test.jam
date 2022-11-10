@@ -1,0 +1,12 @@
+
+function fun(a)
+{
+    fact=1;
+    for i=1 to (a+1) do i+1
+    {
+       fact=fact*i;
+    };
+    output(fact);
+};
+fun(5);
+#factorial of a number
