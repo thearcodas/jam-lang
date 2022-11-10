@@ -21,6 +21,6 @@ Author- [Arco Das](https://www.instagram.com/thearcodas)
 His Social Handles : [Instagram](https://www.instagram.com/thearcodas) | [Facebook](https://www.facebook.com/thearcodas) | [Blog](https://www.thearcodas.wordpress.com)
 
 ---
-## Thanks
+## Contributors
 
-Special thanks to [Soham](https://github.com/SohamMalakar/) for helping me out whenever I needed.
+[**Soham Malakar**](https://www.linkedin.com/in/soham-malakar-108533207) is a student pursuing Bachelor of Science (Hons.) in the Computer Science Department of Scottish Church College, Kolkata. He is very passionate about computers and innovation.
