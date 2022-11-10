@@ -23,6 +23,6 @@ public class Run
         if (result.matches(TokenType.KEYWORD, new Value("none")))
             return;
 
-        //System.out.println(result.value.string);
+        System.out.println(result.value.string);
     }
 }
