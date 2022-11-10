@@ -1,4 +1,0 @@
-interface Condition
-{
-    boolean test();
-}
